@@ -2,7 +2,7 @@ package com.example.todolist.Model;
 
 public class ToDoItem {
 
-    String id,name,createdAt,priority;
+    String id,name,createdAt,priority,key;
     public ToDoItem(String createdAt ,String name, String priority){
         this.name= name;
         this.priority=priority;
@@ -20,6 +20,14 @@ public class ToDoItem {
 
     public String getId() {
         return id;
+    }
+
+    public String getKey() {
+        return key;
+    }
+
+    public void setKey(String key) {
+        this.key = key;
     }
 
     public String getPriority() {

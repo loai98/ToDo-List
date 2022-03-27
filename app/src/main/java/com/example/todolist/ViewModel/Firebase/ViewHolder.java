@@ -1,4 +1,4 @@
-package com.example.todolist.ViewModel;
+package com.example.todolist.ViewModel.Firebase;
 
 import android.view.View;
 import android.widget.CheckBox;
@@ -14,7 +14,6 @@ public class ViewHolder extends RecyclerView.ViewHolder {
         super(itemView);
         checkBox = itemView.findViewById(R.id.checkbox);
     }
-
 
 
 }
