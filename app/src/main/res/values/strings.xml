@@ -4,4 +4,8 @@
     <string name="firebase">Firebase</string>
     <string name="success">The item added successfully</string>
     <string name="fail">Fail to add new item</string>
+    <string name="title">Title</string>
+    <string name="priority">Priority</string>
+    <string name="add_task">Add Task</string>
+    <string name="cancel">Cancel</string>
 </resources>
